@@ -2,7 +2,10 @@ body {
 	font-family: Futura, futura-pt, sans-serif;
 }
 .navbar {
-	margin: 1em 3em;
+	margin: 1em 0;
+}
+.navbar .row{
+	width: 100%;
 }
 .navbar a {
 	color: #6d2300;
@@ -10,8 +13,21 @@ body {
 .navbar a:hover {
 	text-decoration: none;	
 }
-.row {
-  width: 100%;}
+@media(max-width: 767px){
+	
+	.navbar-nav {
+		flex-wrap: wrap;
+		flex-direction: row;
+	}
+	.navbar-nav li{
+		display: inline-block;
+	    width: auto;
+	    /* flex: 0 0 3%; */
+	    flex-direction: column;
+	    margin-right: 8px;
+	}
+}
+
  section {
  	padding: 4em 0;
  }
