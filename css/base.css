@@ -558,16 +558,18 @@ color: #6d2300;
     position: relative; }
   @media (max-width: 767px) {
   	.phone-box-1 {
-  		right: -1em;
-    	top: 2em;
+  		top:initial;
+  		right: 3em;
+    	bottom: -50em;
   	}
   	.phone-box-1 img{
   		width: 20em;
   	}
     .phone-box-2 {
       right: initial;
-      left: -7em;
-      top: -2em; } 
+	    left: -12em;
+	    top: initial;
+	    bottom: -45em; } 
       .phone-box-2 img {
 	  	width: 20em; }
 
