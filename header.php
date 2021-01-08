@@ -6,7 +6,6 @@
 		<title>Mayriele Nery | Frontend Developer</title>
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
-		<meta name="author" content="Codrops" />
 		<link rel="shortcut icon" href="favicon.ico">
 		<!-- <link rel="stylesheet" href="https://use.typekit.net/vmz2gfd.css"> -->
 		<link rel="preconnect" href="https://fonts.gstatic.com">

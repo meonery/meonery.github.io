@@ -1,5 +1,5 @@
 		
-		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<!-- <script src="js/imagesloaded.pkgd.min.js"></script> -->
 		<script src="js/charming.min.js"></script>
 		<script src="js/TweenMax.min.js"></script>
 		<script src="js/scripts.js"></script>
