@@ -14,7 +14,12 @@ body {
 	text-decoration: none;	
 }
 @media(max-width: 767px){
-	
+	.navbar {
+		padding: 0;
+	}
+	.navbar .row{
+		width: -webkit-fill-available;
+	}
 	.navbar-nav {
 		flex-wrap: wrap;
 		flex-direction: row;
