@@ -1,0 +1,29 @@
+$color-orange : #F36523;
+$color-orange-2 : #FD8403;
+$color-blue : #2E3192;
+$color-yellow :#FDA603;
+$color-black : #000;
+$color-gray : #c3c3c3;
+$color-gray-2 : #797979;
+$color-white : #FFF;
+$color-purple: #6D77ED;
+$max: 80;
+$font: 'Nunito Sans', sans-serif;;
+
+$xs : '<=767px';
+$sm : '>=768px','<=991px';
+$md : '>=992px','<=1199px';
+$lg : '>=1200px';
+
+@function headings($from:1, $to:6) {
+    @if $from == $to {
+        @return 'h#{$from}';
+    } @else {
+        @return 'h#{$from},' + headings($from+1, $to);
+    }
+}
+
+@mixin with-border {
+	border-bottom: 1px solid #eaeaea;
+    border-right: 1px solid #eaeaea;
+}

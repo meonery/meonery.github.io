@@ -1,0 +1,39 @@
+.newsroom-header {
+	.bg-elements {
+	  position: absolute;
+	  bottom: -80%;
+	  right: 0; }
+}
+
+.newsroom-thumbs{
+	.boxed {
+		.background-image-holder {
+			border-radius: 0;
+		}
+		.content {
+			padding: 8em 5em;
+			p{
+				color: #000;
+			}
+			.font--bold {
+				font-weight: 600;
+			}
+		}
+		.imagebg{
+			&:hover {
+				.text--red{
+					color: #fff !important;
+				} 
+				* {
+					color: #fff !important;
+				}
+			}
+		}
+		&.hover-img {
+			.content {
+				padding: 5em 5em;
+			}
+		}
+	}
+}
+

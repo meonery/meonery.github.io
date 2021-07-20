@@ -1,0 +1,47 @@
+@import 'app';
+.services-header {
+	position:relative;
+	.bg-elements {
+		position: absolute;
+		bottom: -4em;
+	}
+
+}
+
+.lh-3 {
+	line-height: 3;
+}
+
+.services-thumbs {
+	padding-top:7.42857143em !important;
+	background: #fff;
+	.boxed {
+		padding: 5em;
+	}
+	.card {
+		.card-body {
+			padding: 5em;
+			text-align: center;
+		}
+	}
+	.thumb {
+		margin-bottom: 3em;
+		&:hover {
+			.boxed {
+				background:#e71718;
+				border-color:#e71718; 
+				*{
+					color: $color-white !important;
+				} 
+			}
+		}
+	}
+}
+
+.newsroom-header {
+	.bg-elements {
+		position:absolute;
+		bottom:0;
+		right:0;
+	}
+}

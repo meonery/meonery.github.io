@@ -1,0 +1,62 @@
+@import 'app';
+
+.operations {
+	.countries {
+		li {
+			&.first{
+				flex: 0 0 8%;
+    			max-width: 8%;
+    			margin-right: 20px;
+
+	    	}
+	    	&.second {
+	    		flex: 0 0 90%;
+	    		max-width: 90%;
+	    	}
+	    	
+		}
+	}
+	.maps-under {
+		position: absolute;
+		z-index:0;
+		width: 20%;
+		top:-30%;
+		left: 5%;
+	}
+	.tabs {
+		border-radius: 0;
+		border-color:transparent;
+		li{
+			background-color: $color-white;
+			opacity: 1;
+			.tab__title {
+				span {
+					color: $color-blue;
+				}
+			}
+			&:hover {
+				background-color: $color-blue;
+				.tab__title {
+					span {
+						color: $color-white;
+					}
+				}
+			}
+			&.active {
+				background-color: $color-primary;
+				border-color: $color-primary;
+				.tab__title {
+					span {
+						color: $color-white;
+					}
+				}
+
+			}
+			
+			&:not(:last-child) {
+				border-bottom: none !important;
+			}
+		}
+	}
+
+}

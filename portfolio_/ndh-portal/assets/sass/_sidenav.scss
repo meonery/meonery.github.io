@@ -1,0 +1,16 @@
+.sidenav {
+	li {
+		margin-bottom: 0.4em;
+		&.active {
+			a {
+				color: $color-orange !important;
+			}
+		}
+		a {
+			font-size: 1.1em;
+			font-weight: 600 !important;
+			color: #252525;
+		}
+
+	}
+}

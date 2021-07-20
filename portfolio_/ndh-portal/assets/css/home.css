@@ -1,0 +1,34 @@
+#home-banner .gradient-overlay {
+  position: relative; }
+  #home-banner .gradient-overlay:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    background-image: linear-gradient(to bottom left, transparent, rgba(0, 0, 0, 0.8));
+    opacity: 0.9; }
+
+#home-banner .lead {
+  color: #fff;
+  font-weight: 500; }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #home-banner .pos-vertical-center {
+    top: 40%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%); } }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #home-banner .pos-vertical-center {
+    top: 30%;
+    transform: translateY(0%);
+    -webkit-transform: translateY(0%); } }
+
+#home-banner .btn {
+  margin-bottom: 0 !important; }
+  @media (max-width: 767px) {
+    #home-banner .btn {
+      margin-bottom: 1em !important; } }

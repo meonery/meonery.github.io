@@ -1,0 +1,23 @@
+.newsroom-header .bg-elements {
+  position: absolute;
+  bottom: -80%;
+  right: 0; }
+
+.newsroom-thumbs .boxed .background-image-holder {
+  border-radius: 0; }
+
+.newsroom-thumbs .boxed .content {
+  padding: 8em 5em; }
+  .newsroom-thumbs .boxed .content p {
+    color: #000; }
+  .newsroom-thumbs .boxed .content .font--bold {
+    font-weight: 600; }
+
+.newsroom-thumbs .boxed .imagebg:hover .text--red {
+  color: #fff !important; }
+
+.newsroom-thumbs .boxed .imagebg:hover * {
+  color: #fff !important; }
+
+.newsroom-thumbs .boxed.hover-img .content {
+  padding: 5em 5em; }

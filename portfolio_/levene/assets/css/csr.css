@@ -1,0 +1,64 @@
+.triptych .is-selected img {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  z-index: 2;
+  box-shadow: 0 23px 40px rgba(0, 0, 0, 0.2); }
+
+.triptych .slider .flickity-viewport li {
+  position: relative;
+  transform: scale(0.89);
+  transition: 0.8s;
+  background-blend-mode: multiply; }
+  .triptych .slider .flickity-viewport li:before {
+    background: #223564;
+    opacity: 0.9;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0; }
+
+.triptych .slider li.is-selected {
+  opacity: 1;
+  transition: 1s;
+  transform: scale(0.89);
+  -webkit-transform: scale(0.89);
+  z-index: 2; }
+
+.triptych .slider .flickity-prev-next-button {
+  height: auto;
+  width: auto; }
+  .triptych .slider .flickity-prev-next-button.previous {
+    position: absolute;
+    left: 15%;
+    top: initial;
+    bottom: -23%;
+    background: transparent;
+    font-size: 19px;
+    opacity: 1; }
+    .triptych .slider .flickity-prev-next-button.previous:before {
+      font-family: 'Material Icons';
+      content: 'arrow_back'; }
+    .triptych .slider .flickity-prev-next-button.previous:hover:before {
+      color: #509E39 !important; }
+  .triptych .slider .flickity-prev-next-button.next {
+    position: absolute;
+    left: 18%;
+    top: initial;
+    bottom: -23%;
+    background: transparent;
+    font-size: 19px;
+    opacity: 1; }
+    .triptych .slider .flickity-prev-next-button.next:before {
+      font-family: 'Material Icons';
+      content: 'arrow_forward'; }
+    .triptych .slider .flickity-prev-next-button.next:hover:before {
+      color: #509E39 !important; }
+
+@media (max-width: 767px) {
+  .row-xs {
+    display: initial;
+    flex-wrap: initial;
+    margin-right: auto;
+    margin-left: auto; } }

@@ -1,0 +1,35 @@
+.operations .countries li.first {
+  flex: 0 0 8%;
+  max-width: 8%;
+  margin-right: 20px; }
+
+.operations .countries li.second {
+  flex: 0 0 90%;
+  max-width: 90%; }
+
+.operations .maps-under {
+  position: absolute;
+  z-index: 0;
+  width: 20%;
+  top: -30%;
+  left: 5%; }
+
+.operations .tabs {
+  border-radius: 0;
+  border-color: transparent; }
+  .operations .tabs li {
+    background-color: #fff;
+    opacity: 1; }
+    .operations .tabs li .tab__title span {
+      color: #223564; }
+    .operations .tabs li:hover {
+      background-color: #223564; }
+      .operations .tabs li:hover .tab__title span {
+        color: #fff; }
+    .operations .tabs li.active {
+      background-color: #509E39;
+      border-color: #509E39; }
+      .operations .tabs li.active .tab__title span {
+        color: #fff; }
+    .operations .tabs li:not(:last-child) {
+      border-bottom: none !important; }

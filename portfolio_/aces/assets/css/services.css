@@ -1,0 +1,26 @@
+.services-header {
+  position: relative; }
+  .services-header .bg-elements {
+    position: absolute;
+    bottom: -4em; }
+
+.lh-3 {
+  line-height: 3; }
+
+.services-thumbs {
+  padding-top: 7.42857143em !important;
+  background: #fff; }
+  .services-thumbs .boxed {
+    padding: 5em; }
+  .services-thumbs .card .card-body {
+    padding: 5em;
+    text-align: center; }
+  .services-thumbs .thumb {
+    margin-bottom: 3em; }
+    .services-thumbs .thumb:hover .boxed {
+      background: #e71718;
+      border-color: #e71718; }
+      .services-thumbs .thumb:hover .boxed * {
+        color: #fff !important; }
+
+

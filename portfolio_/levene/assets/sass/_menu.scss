@@ -1,0 +1,101 @@
+#top-menu {
+	background: $color-blue;
+	* {
+		color: $color-white;
+	}
+	.menu-horizontal {
+		li {
+			
+			&:not(:hover) a {
+				opacity: 1;
+			}
+			&:hover a,
+			&:hover a i,
+			&:hover a span {
+				color: $color-primary;
+			}
+			
+			a {
+				text-transform: capitalize;
+				font-size: 12px;
+
+
+			}
+		}
+	}
+
+}
+.menu-horizontal > li, .menu-vertical > li {
+	font-family: $font;
+
+	text-transform: capitalize;
+}
+
+.bar-1 {
+	.menu-horizontal {
+		> li > a {
+			text-transform: capitalize;
+			font-size: 14px;
+			color: $color-blue;
+			opacity: 1;
+			&:hover {
+				color: $color-primary;
+			}
+		}
+	}
+}
+
+.bar {
+	&.bar-1 {
+		&.pos-fixed {
+			top: 45px;
+			@include media($md...){
+				top: 40px;
+			}
+		}
+	}
+
+	@include media($xs){
+		padding: 0.5em 0;
+	}
+	.menu-horizontal {
+		top:0;
+
+	}
+	.logo {
+		max-height: 3.85714286em;
+		top: 0;
+		@include media($sm...){
+			max-height: 5.5em;
+		}
+		@include media($xs){
+			max-height: 5.5em;
+		}
+	}
+	.menu-toggle {
+		box-shadow: none;
+	}
+}
+
+.notification.side-menu {
+	background: $color-blue;
+	width: 100%;
+	.menu-vertical li{
+		&:not(:hover):not(.dropdown--active) {
+			opacity: 1;
+		}
+		&:not(:last-child){
+			margin-bottom:0.8em;
+		}
+		a{ 
+			color: $color-white !important;
+			opacity: 1;
+		}
+		opacity: 1;
+	}
+	
+	.logo {
+		max-height: 6em;
+		opacity: 1;
+	}
+}

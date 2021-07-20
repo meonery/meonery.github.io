@@ -1,0 +1,240 @@
+.hosting-plan {
+	.pricing {
+		&.boxed {
+			&--orange {
+				border-radius: 0;
+				border-top: 5px solid $color-orange-2;
+
+			}
+			&--purple {
+				border-radius: 0;
+				border-top: 5px solid $color-purple;
+			}
+		}
+		.price {
+			font-size: 3em;
+			display: block;
+			margin-top: 0.3939393939394em;
+			margin-bottom: 0.3939393939394em;
+			color: $color-orange;
+
+			.type--fine-print {
+				font-size: 0.3em;
+    			font-weight: 100;
+			}
+			
+		}
+
+	}	
+	.pricing-1 {
+		.btn {
+			position: relative;
+			border-radius:0;
+			width: 50%;
+			padding: 0.32857143em 0.3em;
+			&--gradient {
+				background: linear-gradient(to bottom left, #F36523, #FDD402);
+				border: none;
+				margin-bottom: 2em;
+			}
+		}
+	}
+
+	ul {
+
+		li {
+			color: $color-black;
+			padding: 0 1em;
+			&.not-included {
+				color: $color-gray;
+				span{
+					text-decoration: line-through;
+				}
+				i {
+					margin-right: 2.3em;
+				}
+			}
+		}
+	}
+
+	.material-icons {
+		margin-right: 1em;
+	}
+
+		
+}
+
+.pricing-table {
+	table {
+		border-spacing: 0;
+		color: $color-black;
+	}
+	.pricing-btn {
+		text-align: center;
+		background: $color-white;
+		cursor: pointer;
+		transition: 0.3s ease-in;
+		&:hover {
+			transition-duration: 0.3s, 0.3s;
+			transition-timing-function: ease-in;
+			background: rgba(255, 132, 0, 0.14);
+		}	
+
+		i {
+			font-size: 2em;
+		}
+		
+		&-text {
+			padding: 2.5em;
+			&:first-child {
+				font-size: 1.3em;
+				font-weight: 600;
+			}
+		}
+	}
+	table .collapse-box {
+		border-top:2px solid rgba(255, 255, 255, 0.1);
+		padding:0;
+	}
+
+	.pricing-features-list {
+		padding: 2em;
+		-webkit-column-count: 3;
+	    -moz-column-count: 3;
+	    column-count: 3;
+	    -webkit-column-gap: 20px;
+	    -moz-column-gap: 20px;
+	    column-gap: 20px;
+	    @include media($xs) {
+	    	padding-left: 0.6em;
+	    	padding-right: 0.6em;
+	    }
+	    
+	}
+
+	.collapse.show {
+		transition: ease-in;
+	}
+}
+
+
+.sidenav {
+
+  color: #000;
+  border-left: 1px solid rgba(183, 183, 183, 0.3);
+  padding-left:1em;
+ 
+}
+
+.pricing-table-mobile {
+	border-radius: 5px;
+	background: $color-white;
+	.pricing-table-title {
+		padding:20px;
+		font-weight: 700;
+	}
+	.pricing-features-list {
+		padding: 20px;
+		.feature-list {
+			font-size:1.2rem;
+			padding:0.4em 0;
+			color: $color-black;
+			&.medium {
+				color: #525050;
+			}
+		}
+
+	}
+	.pricing-table-footer {
+		padding-top: 20px;
+		padding-bottom:20px;
+		
+		.feature-list {
+			font-size:1.2rem;
+
+
+		}
+	}
+
+}
+
+.card {
+	.pricing-features-list {
+		.feature-list {
+	    	position:relative;
+	    	padding-left: 1.5em;
+	    	&:before {
+		   		content: 'check';
+		   		position:absolute;
+		   		font-family: 'Material Icons';
+		   		font-weight: normal;
+			    font-style: normal;
+			    font-size: 18px;
+			    line-height: 1;
+			    letter-spacing: normal;
+			    text-transform: none;
+			    display: inline-block;
+			    white-space: nowrap;
+			    word-wrap: normal;
+			    direction: ltr;
+			    -webkit-font-feature-settings: 'liga';
+			    -webkit-font-smoothing: antialiased;
+			    margin-left: -1.5em;
+			    color: $color-blue;
+		    }
+		    &.not-included {
+		    	color:$color-gray;
+		    	text-decoration: line-through;
+		    	&:before {
+		    		content:'';
+					color:$color-gray;
+
+				}
+		    }
+		}
+	}
+}
+
+.inner-pricing {
+	background: $color-white;
+	-webkit-box-shadow: 0px -10px 30px 0px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px -10px 30px 0px rgba(0, 0, 0, 0.05);
+	.inner-pricing-item {
+		.pricing-header {
+			padding: 60px;
+			&-2 {
+				
+				@media (max-width: 1300px){
+					padding: 27px 22px;
+    				max-height: 22.8em;
+				}
+				padding: 55px 22px;
+				max-height:25.8em;
+				span.small {
+					font-size: 0.5em;
+				}
+			}
+		}
+
+	}
+	
+	.inner-pricing-item .pricing-feature, .inner-pricing-item .pricing-header, .inner-pricing-item .pricing-header-2{
+		@include with-border;
+	}
+	.pricing-feature {
+		display: block;
+	    padding: 20px 40px;
+	    line-height: 1;
+	    background-color: $color-white;
+	    height: 57px;
+	}
+	.gap {
+		height: 58px;
+	    clear: both;
+	    position: relative;
+	    display: block;
+	    background-color: #f1f1f1;
+	    border-top: 1px solid #eaeaea;
+	    border-bottom: 1px solid #eaeaea;
+	}
+}

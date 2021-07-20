@@ -1,0 +1,91 @@
+@import'app';
+.triptych {
+	.is-selected {
+		img {
+			transform: scale(1.2);
+			-webkit-transform: scale(1.2);
+			z-index: 2;
+			box-shadow: 0 23px 40px rgba(0, 0, 0, 0.2);
+		}
+	}
+	.slider {
+		.flickity-viewport li{
+		    position: relative;
+		    // width: 70% !important;
+			transform: scale(0.89);
+		    transition: 0.8s;
+		    background-blend-mode:multiply;
+		    &:before {
+		    	background: $color-blue;
+		    	opacity: 0.9;
+		    	content:'';
+		    	position: absolute;
+		    	left: 0;
+		    	top:0;
+		    	bottom: 0;
+		    	right: 0;
+		    }
+		}
+		li.is-selected {
+			opacity: 1;
+		    transition: 1s;
+		    transform: scale(0.89);
+		    -webkit-transform: scale(0.89);
+		    z-index: 2;
+		}
+		.flickity-prev-next-button {
+			height: auto;
+    		width: auto;
+			&.previous{
+				position:absolute;
+				left: 15%;
+				top:initial;
+				bottom:-23%;
+				background:transparent;
+				font-size: 19px;
+				opacity: 1;
+				
+				&:before {
+			    	font-family: 'Material Icons';
+			    	content: 'arrow_back';
+				}
+				&:hover {
+					&:before {
+						color: $color-primary !important;
+					}
+				}
+			}
+			&.next{
+				position:absolute;
+				left: 18%;
+				top:initial;
+				bottom:-23%;
+				background:transparent;
+				font-size: 19px;
+				opacity: 1;
+				
+		
+				&:before {
+					font-family: 'Material Icons';
+			    	content: 'arrow_forward';
+				}
+				&:hover {
+					&:before {
+						color: $color-primary !important;
+					}
+				}
+			}
+
+		}
+	}
+}
+
+.row-xs {
+	@include media($xs){
+		display: initial;
+	    flex-wrap: initial;
+	    margin-right: auto;
+	    margin-left: auto;
+	}
+
+}
