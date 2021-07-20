@@ -31,10 +31,10 @@
                     <div class="col-7 col-md-9">
                         <ul class="navbar-nav justify-content-end">
                             <li class="nav-item">
-                                <a href="index.html" class="nav-link">about me</a>
+                                <a href="index.php" class="nav-link">about me</a>
                             </li>
                             <li class="nav-item">
-                                <a href="portfolio.html" class="nav-link">works</a>
+                                <a href="portfolio.php" class="nav-link">works</a>
                             </li>
                             <li class="nav-item">
                                 <a href="mailto:mmeonery@gmail.com" class="nav-link">contact</a>

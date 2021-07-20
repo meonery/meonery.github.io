@@ -78,7 +78,7 @@
                         <div class="links">
                             <a href="#" class="intro__enter">about me</a>
                             <span class="divider">|</span>
-                            <a href="portfolio.html" class="intro__enter">view works</a>
+                            <a href="portfolio.php" class="intro__enter">view works</a>
                         </div>
 
                     </div>
