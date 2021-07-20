@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <?php
-            define('BASE_URL','http://meonery.github.io/portfolio/book-angel/');
+            define('BASE_URL','https://meonery-portfolio.netlify.app/portfolio/book-angel/');
             // define('BASE_URL','http://localhost:8100/portfolio/book-angel/');
         ?>
         <meta charset="utf-8">
