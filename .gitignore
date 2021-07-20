@@ -22,6 +22,8 @@ dist/
 # Maven
 target/
 dist/
+package.json
+package-lock.json
 
 # JetBrains IDE
 .idea/
