@@ -1,0 +1,26 @@
+@import 'app';
+
+.about-us {
+	@include media($xs){
+		height: auto;
+		z-index: 0;
+		padding-top: 8em;
+	}
+}
+
+.pb-xs-0 {
+	@include media($xs){
+		padding-bottom: 0 !important;
+	}
+}
+
+.height-70 {
+	@include media($xs){
+		height:30vh !important;
+	}
+}
+
+.fancy span:before {
+	display: none;
+}
+

@@ -1,0 +1,56 @@
+@import 'app';
+
+#home-banner {
+	.title {
+		@include media($xs){
+			font-size: 1.8em;
+		}
+	}
+	&.space--lg {
+		@include media($sm...){
+			padding-top:12.85714286em;
+		}
+		@include media($xs){
+			padding-bottom:4.75714286em;
+		}
+	}
+	.pos-vertical-center-xs {
+		@include media($sm...){
+			top: 0;
+			transform:translateY(0%);
+			-webkit-transform: translateY(0%);
+		}
+		@include media($xs){
+			transform:translateY(5%);
+			-webkit-transform: translateY(5%);
+		}
+	}
+	&.height-100 {
+		@include media($sm...){
+			height: auto;
+		}
+	}
+	
+}
+
+
+
+.progressbar {
+  height: 10px;
+  background: #333;
+}
+
+.image--angel {
+	bottom: 3em;
+    right: 10em;
+    width: 8em;
+    @include media($xs){
+    	width: 5em;
+    	right: 1em;
+    }
+}
+.svg-rect {
+	position: absolute;
+	right:-7em;
+	top:2em;
+}

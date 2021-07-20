@@ -1,0 +1,40 @@
+$xs : '<=767px';
+$sm : '>=768px','<=991px';
+$md : '>=992px','<=1199px';
+$lg : '>=1200px';
+$font-title : 'Poppins', serif;
+$font-paragraph : 'Poppins', sans-serif;;
+
+
+$color-primary : #c7c038;
+$color-green : #19623b;
+$color-light-green : #aec145;
+$color-darkgreen:#014520;
+$color-gold : #DDB14E;
+$color-light-blue: #4CAFD4;
+$color-light-blue-2: #3A57F8;
+$color-blue: #0032BA;
+$color-dark-blue: #071222;
+$color-black-2: #515151;
+$color-secondary : #DBDBDB;
+$color-black : #000;
+$color-grayish : #ececec;
+$color-white : #fff;
+$color-pink : #FF0FC8;
+$color-light-pink : #DA8684;
+$color-red : #F8052A;
+$color-orange : #FF8300;
+$color-violet : #5B4EB4;
+$color-violet-2 : #251F54;
+$color-dark-violet : #35063B;
+$color-yellow : #ffe203;
+
+$color-facebook : #3b5998;
+$color-twitter : #00acee;
+$color-whatsapp: #25D366;
+$color-instagram: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+$max: 80;
+
+@mixin transition($property: all, $duration: 0.45s, $ease: cubic-bezier(0.65,0,.076,1)) {
+  transition: $property $duration $ease;
+}

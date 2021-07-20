@@ -1,0 +1,22 @@
+.countryapi-loader {
+  display: none;
+  position: absolute;
+  height: 100%;
+  background: #ededed;
+  top: 0px;
+  width: 100%;
+  left: 0px;
+  z-index: 9;
+  padding-left: 15px;
+  align-items: center;
+  border: 1px solid #ccc;
+}
+
+.countryapi, .cityapi, .stateapi {
+  position: relative;
+  min-height: 35px;
+  display: flex;
+  align-items: center;
+}
+
+/*# sourceMappingURL=/style.6d80b553.css.map */
