@@ -49,7 +49,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 mb-4" data-aos="zoom-in-down" data-aos-delay="100" data-aos-duration="500" data-aos-once="true">
-                        <a href="portfolio/book-angel/">
+                        <a href="portfolio/levene/">
                             <img src="img/portfolio-1.jpg">
                         </a>
                     </div>
@@ -59,10 +59,14 @@
                         </a>
                     </div>
                     <div class="col-md-12 mb-4" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="500" data-aos-once="true">
-                        <img src="img/portfolio-3.jpg">
+                        <a href="portfolio/aces/">    
+                            <img src="img/portfolio-3.jpg">
+                        </a>
                     </div>
                     <div class="col-md-6 mb-4" data-aos="zoom-in-down" data-aos-delay="200" data-aos-duration="500" data-aos-once="true">
-                        <img src="img/portfolio-4.jpg">
+                        <a href="portfolio/aces/">
+                            <img src="img/portfolio-4.jpg">
+                        </a>
                     </div>
                     <div class="col-md-6 mb-4" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="500" data-aos-once="true">
                         <img src="img/portfolio-5.jpg">
