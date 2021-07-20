@@ -72,7 +72,7 @@
                         <img src="img/portfolio-5.jpg">
                     </div>
                     <div class="col-md-12 mb-4" data-aos="zoom-in-down" data-aos-delay="400" data-aos-duration="500" data-aos-once="true">
-                        <a href="portfolio/aces/">  
+                        <a href="portfolio/ndh-portal/">  
                             <img src="img/portfolio-6.jpg">
                         </a>    
                     </div>
